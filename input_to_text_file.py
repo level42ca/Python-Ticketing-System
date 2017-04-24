@@ -97,13 +97,13 @@ def master():
     # Durration:
 
 def CreateTicket():
-    GetNextTicket = StartUp()
+    GetNextTicket = GetTickets()
     print("YOOO The next ticket will be:\n{}\n".format("%06d" % (GetNextTicket)))
     print("")
     
 def PrintTicket():
-    # Imports the next ticket number from "def StartUp()"
-    GetNextTicket = StartUp()
+    # Imports the next ticket number from "def GetTickets()"
+    GetNextTicket = GetTickets()
     
     # "%06d" % (TicketNumber,) Will print the TicketNumber variable and ensure that the number is 6 digits, with 0's in front.
     # This is useful, because it lets you keep the TicketNumeber as an INT for processing.
@@ -122,7 +122,7 @@ def PrintTicket():
 def ReadTicket():
     # Imports the next ticket number from "def StartUp()"
     # GetNextTicket = StartUp()
-    GetNextTicket = 57
+    GetNextTicket = 4
 
     print("Checking Current tickets:")
 
@@ -162,8 +162,8 @@ def ReadTicket():
     
 
 
-master()
+#master()
 StartUp()
-#CreateTicket()
-#PrintTicket()
+CreateTicket()
+PrintTicket()
 ReadTicket()
