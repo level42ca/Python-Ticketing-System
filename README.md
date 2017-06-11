@@ -1,4 +1,4 @@
-# Tickets
+# Simple Python Helpdesk Ticket System
 #### Simple Ticketing System
 
 ## Setup
