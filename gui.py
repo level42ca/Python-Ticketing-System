@@ -92,6 +92,7 @@ class MainWindow(Frame):
         sys.stdout = TextRedirector(self.textbox, "stdout")
         sys.stderr = TextRedirector(self.textbox, "stderr")
 
+# Functions ###################################################
     def StartUpChecker(self):
         self.clear_text()
         #functions.StartUpChecker()
